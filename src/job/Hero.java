@@ -16,6 +16,7 @@ public class Hero {
 		System.out.println(this.name+"は逃げ出した！");
 	}
 
+	// 継承不可なメソッド
 	public final void slip() {
 		this.hp -= 5;
 		System.out.println(this.name+"は転んだ！");
